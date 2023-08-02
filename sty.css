@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  .hero{
+    position:relative;
+    width: 100%;
+    height: 13vh;
+    background: transparent;
+  }
+
+  .hero port{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+  }
+  
+  nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  
+  }
+  
+  nav ul li a:hover{
+    color: red;
+  }
+  
+  .detel{
+    margin-left: 8%;
+    margin-top: 15%;
+    bottom: 40px;
+  }
+  .detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 40px;
+  }
+  span{
+    color:blue;
+    bottom: 40%;
+  
+  }
+  .detel p{
+    color:#555
+  
+  }
+  .images{
+    width: 45%;
+    height:80%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+    
+  }
+  .images img{
+    height: 70%;
+    width:50%;
+    position: absolute;
+    left: 50%;
+    bottom: 30;
+    transform: translate(-50%);
+    transition: bootom 1s, left 1s;
+    align-items: right;
+  
+  }
+  .p{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: dotted;
+  }
+  #a{
+    font-size: large;
+  }
+  .page-header{
+    color:blue;
+  }
+  .lead{
+    color: black;
+  }
+
+  /* ABOUT */
+
+  .about-
+.about .container-fluid h1{
+    margin-left:0.5rem;
+    color: #000;
+  }
+
+.about-right {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.about-right h2 {
+	font-size: 35px;
+	color: black;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about-right h6 {
+	color: #f90505;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.about-right p {
+	line-height: 35px;
+	font-size: 16px;
+	margin-bottom: 50px;
+	letter-spacing: 0.2px;
+	word-spacing: 0.5px;
+}
+.about-right p span {
+	color: black;
+	font-weight: 600;
+	border-bottom: 3px solid red;
+}
+.about-right table tr td {
+	padding: 10px;
+}
+
+container{
+	color:rgba(250, 6, 6, 0.963);
+	}
+
+	.lead{
+		color:rgb(36, 9, 236);
+		}
+
+		.lead{
+			color:rgb(8, 13, 116);
+			}
+
+      /* HOBBIES */
+     
+      .about-hobbies{
+        padding:50px 0px ;
+        text-align: right;
+      }
+      .about-hobbies p{
+        font-size: 20px;
+        color: rgb(7, 7, 7);
+      }
+
+      /* SKILLS */
+      .about-skill {
+        padding: 50px 0px;
+        text-align: right;
+      }
+      
+      .about-skill p {
+        font-size: 19px;
+        line-height: 30px;
+        color: rgb(7, 7, 7);
+      }
+      .about-skill p span {
+        color: rgb(22, 107, 147);
+        font-weight: 600;
+      }
+      .skill-section {
+        font-size: 25px;
+        color: rgb(12, 12, 12);
+        font-weight: 400;
+        margin-bottom: 25px;
+      }
+      .skill-section p {
+        float: left;
+        margin-bottom: 4px;
+        color: black;
+        font-size: 15px;
+      }
+      .skill-section span {
+        float: right;
+        margin-bottom: 5px;
+        color: black;
+        font-size: 15px;
+        margin-right: 40px;
+      }
+      .skill-experience {
+        width: 100%;
+        float: left;
+        background: #f7f3f3;
+        border-radius: 10px;
+        margin-bottom: 25px;
+      }
+      .skill-experience span {
+        background: rgb(223, 8, 8);
+        height: 5px;
+        float: left;
+      }
+
+      /* CONTACT */
+      .contact-info {
+        background: black;
+        padding: 45px;
+      }
+      .contact-info h4 {
+        font-size: 17px;
+        margin-top: 25px;
+        color: white;
+        margin-bottom: 5px;
+      }
+      .contact-info a {
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #095098;
+        line-height: 30px;
+      }
+      .contact-info i {
+        background: #fff;
+        color: black;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 17px;
+        margin-right: 15px;
+        margin-top: 20px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+      .contact-form {
+        background: white;
+        padding: 45px;
+        box-shadow: 0px 0px 1px 0px #9d9a9a;
+      }
+      .contact-form h2 {
+        margin-top: 25px;
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      .contact-form input {
+        height: 45px;
+      }
+      .contact-form button {
+        color: white;
+        border: none;
+        background: red;
+        padding: 12px 30px;
+        font-size: 15px;
+        margin-bottom: 25px;
+      }
+      @media screen and (max-width:768px) {
+        .contact-form {
+          padding: 20px;
+        }
+        .contact-info i {
+          margin-right: 5px;
+        }
+      }
+      @media screen and (max-width:500px) {
+        .contact-form {
+          padding: 20px;
+        }
+        .contact-info i {
+          margin-right: 5px;
+        }
+      }
+
+      .heading-section h2 {
+        text-align: center;
+        color: black;
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+      .heading-section p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .heading-borders {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+      }
+      .heading-borders span {
+        border: 1px solid rgb(3, 3, 3);
+        width: 5%;
+        margin-bottom: 20px;
+      }
+      @media screen and (max-width:768px) {
+        .heading-section h2 {
+          font-size: 30px;
+          margin-bottom: 5px;
+        }
+        .heading-borders span {
+          width: 8%;
+        }
+      }
+      @media screen and (max-width:500px) {
+        .heading-borders span {
+          width: 25%;
+        }
+        .heading-section h2 {
+          font-size: 30px;
+        }
+      }
+      
+      /* FOOTER SECTION */
+      .footer {
+        background: black;
+        padding: 20px 0px 5px 0px;
+      }
+      .footer p {
+        color: white;
+        text-align: right;
+      }
+      .footer-section i {
+        font-size: 30px;
+        margin-right: 10px;
+        color: white;
+      }
+      @media screen and (max-width:500px) {
+        .footer-section {
+          text-align: center !important;
+        }
+        .footer p {
+          text-align: center;
+        }
+      }
+      .container-fluid
+      {
+        text-align: left;
+      }
+
+      .mydiv1{
+        font-size: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        justify-content: space-around;
+      }
+      
